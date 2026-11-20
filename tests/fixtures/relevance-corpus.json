@@ -1,0 +1,29 @@
+{
+  "documents": {
+    "agentic": "Agentic AI engineer with production experience building reasoning agents, tool calling, planning and multi-agent systems.",
+    "orchestration": "Designed AI agents with LangGraph, agent orchestration, tool execution, retrieval and coordinated language model workflows.",
+    "autonomous": "Developed autonomous agents that plan tasks, invoke tools, retain memory and collaborate to complete user goals.",
+    "ml_title": "Machine Learning Engineer experienced in training predictive models, feature engineering, evaluating accuracy and deploying inference services.",
+    "mlops": "Built MLOps pipelines for model deployment, experiment tracking, automated retraining, model monitoring and production inference.",
+    "training": "Implemented model training and validation pipelines in PyTorch and scikit-learn, then deployed trained models as production services.",
+    "ai_engineer": "AI Engineer building artificial intelligence applications with neural networks, language models, retrieval augmented generation and evaluation.",
+    "emails": "Emails, maintenance and familiar routines. Maintains email templates, mailing lists, inbox filters and HTML newsletters.",
+    "civil": "Civil engineer managing road maintenance, bridge inspection, structural calculations and construction contractors.",
+    "sales_agent": "Sales agent coordinating customer appointments, property viewings, commission payments and sales contracts.",
+    "software": "Software engineer building invoice forms, user authentication, CRUD endpoints and payment processing for accounting applications.",
+    "leave": "Employees receive twenty days of annual paid leave. Leave requests require manager approval and sick leave is five days per year.",
+    "invoices": "Quarterly invoices, accounts payable, purchase orders and supplier payment reconciliation."
+  },
+  "queries": [
+    {"query": "Agentic AI", "relevant": ["agentic", "orchestration", "autonomous"]},
+    {"query": "ML Engineer", "relevant": ["ml_title", "mlops", "training"]},
+    {"query": "AI Engineer", "relevant": ["agentic", "orchestration", "autonomous", "ml_title", "mlops", "training", "ai_engineer"]},
+    {"query": "AI", "relevant": ["agentic", "orchestration", "autonomous", "ml_title", "mlops", "training", "ai_engineer"]},
+    {"query": "paid time off", "relevant": ["leave"]}
+  ],
+  "held_out_queries": [
+    {"query": "Find documents related to Agentic AI", "relevant": ["agentic", "orchestration", "autonomous"]},
+    {"query": "Show ML Engineer profiles", "relevant": ["ml_title", "mlops", "training"]},
+    {"query": "AI Engineer experience", "relevant": ["agentic", "orchestration", "autonomous", "ml_title", "mlops", "training", "ai_engineer"]}
+  ]
+}

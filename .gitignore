@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+.env
+benchmark-result.json
+model-download.log
+.env.*
+!.env.example
+*.log
+~$*
+*.docx
+intent-search-validation.json
+relevance-calibration-report.json

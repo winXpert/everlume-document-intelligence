@@ -1,0 +1,353 @@
+{
+  "model": "nomic-embed-text",
+  "document_prefix": "search_document: ",
+  "query_prefix": "search_query: ",
+  "expansion_version": 3,
+  "created": "2026-11-18T07:36:38.391512+00:00",
+  "thresholds": {
+    "agentic ai": 0.7562,
+    "ml engineer": 0.7396,
+    "ai engineer": 0.6826,
+    "ai": 0.6459,
+    "default": 0.5278
+  },
+  "context_thresholds": {
+    "agentic ai": 0.7562,
+    "ml engineer": 0.6889,
+    "ai engineer": 0.5952,
+    "ai": 0.5641
+  },
+  "seconds": 4.742,
+  "samples": [
+    {
+      "query": "Agentic AI",
+      "intent": "agentic ai",
+      "held_out": false,
+      "scores": {
+        "agentic": 0.843,
+        "orchestration": 0.8437,
+        "autonomous": 0.812,
+        "ml_title": 0.6375,
+        "mlops": 0.607,
+        "training": 0.6345,
+        "ai_engineer": 0.7412,
+        "emails": 0.5632,
+        "civil": 0.5592,
+        "sales_agent": 0.6567,
+        "software": 0.5998,
+        "leave": 0.4528,
+        "invoices": 0.5562
+      },
+      "relevant": [
+        "agentic",
+        "orchestration",
+        "autonomous"
+      ],
+      "threshold": 0.7562,
+      "context_threshold": 0.7562,
+      "contextual_documents": [
+        "agentic",
+        "orchestration",
+        "autonomous"
+      ],
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "ML Engineer",
+      "intent": "ml engineer",
+      "held_out": false,
+      "scores": {
+        "agentic": 0.6854,
+        "orchestration": 0.6702,
+        "autonomous": 0.6388,
+        "ml_title": 0.8371,
+        "mlops": 0.8016,
+        "training": 0.7189,
+        "ai_engineer": 0.7246,
+        "emails": 0.5731,
+        "civil": 0.6417,
+        "sales_agent": 0.5157,
+        "software": 0.6479,
+        "leave": 0.4594,
+        "invoices": 0.5101
+      },
+      "relevant": [
+        "ml_title",
+        "mlops",
+        "training"
+      ],
+      "threshold": 0.7396,
+      "context_threshold": 0.6889,
+      "contextual_documents": [
+        "ml_title",
+        "mlops",
+        "training"
+      ],
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "AI Engineer",
+      "intent": "ai engineer",
+      "held_out": false,
+      "scores": {
+        "agentic": 0.7987,
+        "orchestration": 0.7601,
+        "autonomous": 0.6777,
+        "ml_title": 0.7759,
+        "mlops": 0.6252,
+        "training": 0.634,
+        "ai_engineer": 0.8944,
+        "emails": 0.5802,
+        "civil": 0.6469,
+        "sales_agent": 0.5162,
+        "software": 0.6676,
+        "leave": 0.4334,
+        "invoices": 0.5113
+      },
+      "relevant": [
+        "agentic",
+        "orchestration",
+        "autonomous",
+        "ml_title",
+        "mlops",
+        "training",
+        "ai_engineer"
+      ],
+      "threshold": 0.6826,
+      "context_threshold": 0.5952,
+      "contextual_documents": [
+        "agentic",
+        "orchestration",
+        "autonomous",
+        "ml_title",
+        "mlops",
+        "training",
+        "ai_engineer"
+      ],
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "AI",
+      "intent": "ai",
+      "held_out": false,
+      "scores": {
+        "agentic": 0.7172,
+        "orchestration": 0.7325,
+        "autonomous": 0.7026,
+        "ml_title": 0.6819,
+        "mlops": 0.5941,
+        "training": 0.6121,
+        "ai_engineer": 0.7731,
+        "emails": 0.5901,
+        "civil": 0.5425,
+        "sales_agent": 0.553,
+        "software": 0.6309,
+        "leave": 0.4677,
+        "invoices": 0.5404
+      },
+      "relevant": [
+        "agentic",
+        "orchestration",
+        "autonomous",
+        "ml_title",
+        "mlops",
+        "training",
+        "ai_engineer"
+      ],
+      "threshold": 0.6459,
+      "context_threshold": 0.5641,
+      "contextual_documents": [
+        "agentic",
+        "orchestration",
+        "autonomous",
+        "ml_title",
+        "mlops",
+        "training",
+        "ai_engineer"
+      ],
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "paid time off",
+      "intent": "default",
+      "held_out": false,
+      "scores": {
+        "agentic": 0.424,
+        "orchestration": 0.4391,
+        "autonomous": 0.46,
+        "ml_title": 0.4372,
+        "mlops": 0.4406,
+        "training": 0.4456,
+        "ai_engineer": 0.3949,
+        "emails": 0.4605,
+        "civil": 0.4263,
+        "sales_agent": 0.5092,
+        "software": 0.4549,
+        "leave": 0.6759,
+        "invoices": 0.5128
+      },
+      "relevant": [
+        "leave"
+      ],
+      "threshold": 0.5278,
+      "context_threshold": 0.5278,
+      "contextual_documents": [],
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "Find documents related to Agentic AI",
+      "intent": "agentic ai",
+      "held_out": true,
+      "scores": {
+        "agentic": 0.843,
+        "orchestration": 0.8437,
+        "autonomous": 0.812,
+        "ml_title": 0.6375,
+        "mlops": 0.607,
+        "training": 0.6345,
+        "ai_engineer": 0.7412,
+        "emails": 0.5632,
+        "civil": 0.5592,
+        "sales_agent": 0.6567,
+        "software": 0.5998,
+        "leave": 0.4528,
+        "invoices": 0.5562
+      },
+      "relevant": [
+        "agentic",
+        "orchestration",
+        "autonomous"
+      ],
+      "threshold": 0.7562,
+      "context_threshold": 0.7562,
+      "contextual_documents": [
+        "agentic",
+        "orchestration",
+        "autonomous"
+      ],
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "Show ML Engineer profiles",
+      "intent": "ml engineer",
+      "held_out": true,
+      "scores": {
+        "agentic": 0.6854,
+        "orchestration": 0.6702,
+        "autonomous": 0.6388,
+        "ml_title": 0.8371,
+        "mlops": 0.8016,
+        "training": 0.7189,
+        "ai_engineer": 0.7246,
+        "emails": 0.5731,
+        "civil": 0.6417,
+        "sales_agent": 0.5157,
+        "software": 0.6479,
+        "leave": 0.4594,
+        "invoices": 0.5101
+      },
+      "relevant": [
+        "ml_title",
+        "mlops",
+        "training"
+      ],
+      "threshold": 0.7396,
+      "context_threshold": 0.6889,
+      "contextual_documents": [
+        "ml_title",
+        "mlops",
+        "training"
+      ],
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "query": "AI Engineer experience",
+      "intent": "ai engineer",
+      "held_out": true,
+      "scores": {
+        "agentic": 0.7987,
+        "orchestration": 0.7601,
+        "autonomous": 0.6777,
+        "ml_title": 0.7759,
+        "mlops": 0.6252,
+        "training": 0.634,
+        "ai_engineer": 0.8944,
+        "emails": 0.5802,
+        "civil": 0.6469,
+        "sales_agent": 0.5162,
+        "software": 0.6676,
+        "leave": 0.4334,
+        "invoices": 0.5113
+      },
+      "relevant": [
+        "agentic",
+        "orchestration",
+        "autonomous",
+        "ml_title",
+        "mlops",
+        "training",
+        "ai_engineer"
+      ],
+      "threshold": 0.6826,
+      "context_threshold": 0.5952,
+      "contextual_documents": [
+        "agentic",
+        "orchestration",
+        "autonomous",
+        "ml_title",
+        "mlops",
+        "training",
+        "ai_engineer"
+      ],
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  ]
+}
